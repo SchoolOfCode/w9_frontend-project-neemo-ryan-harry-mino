@@ -3,16 +3,15 @@ import './App.css';
 function App() {
   return (
     <div>
-      <div>
+      <div className='mainTitle'>
         <h1> FOO-D FOR THOUGHT
-
         </h1>
         <p>
           INTRODUCTION SECTION
         </p>
 
       </div>
-      <div>
+      <div className='wellbeignSection'>
         <h1> WELLBEING </h1>
         <p>
           ABOUT SECTION
@@ -21,7 +20,7 @@ function App() {
         CLICK ME
         </button>
     </div>
-    <div>
+    <div className='technicalSection'>
         <h1> TECHNICAL </h1>
         <p>
           ABOUT SECTION
