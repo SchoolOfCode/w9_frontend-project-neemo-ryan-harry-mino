@@ -10,11 +10,11 @@ const navigate = useNavigate()
           <p>INTRODUCTION SECTION</p>
         </div>
         <div className="wellbeignSection">
-          <Cardcomponent title={"Wellbeing"} aboutSection= {"About Section"} />
+          <Cardcomponent className="wellbeing-section" title={"Wellbeing"} aboutSection= {"About Section"} />
           <button onClick={() => navigate("/wellbeing")}>CLICK ME</button>
         </div>
         <div className="technicalSection">
-          <Cardcomponent title={"Technical"} aboutSection= {"About Section"} />
+          <Cardcomponent className="tecnhical-section" title={"Technical"} aboutSection= {"About Section"} />
           <button onClick={() => navigate("/technical")}>CLICK ME</button>
         </div>
 

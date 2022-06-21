@@ -1,6 +1,6 @@
 const Cardcomponent = (props) => {
 return (
-    <div>
+    <div className={props.className}>
         <h1>
             {props.title}
         </h1>
