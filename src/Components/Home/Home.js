@@ -1,5 +1,6 @@
 import "./Home.css"
 const Home = () => {
+  
     return (
       <div>
         <div className="mainTitle">
@@ -16,6 +17,7 @@ const Home = () => {
           <p>ABOUT SECTION</p>
           <button>CLICK ME</button>
         </div>
+
       </div>
     );
 }
