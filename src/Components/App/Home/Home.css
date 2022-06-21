@@ -1,0 +1,18 @@
+.mainTitle {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+.wellbeignSection {
+  float: left;
+  border: 1px solid red;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.technicalSection {
+  float: right;
+  border: 1px solid blue;
+  text-align: center;
+  margin-right: 100px;
+}
