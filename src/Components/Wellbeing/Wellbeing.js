@@ -1,6 +1,6 @@
 const Wellbeing = () => {
     return ( <div>
-        <h1> WELLBEING</h1>
+        <h1> WELLBEING </h1>
     </div>);
 }
  

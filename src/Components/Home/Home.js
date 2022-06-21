@@ -16,7 +16,7 @@ const navigate = useNavigate()
         <div className="technicalSection">
           <h1> TECHNICAL </h1>
           <p>ABOUT SECTION</p>
-          <button>CLICK ME</button>
+          <button onClick={() => navigate("/technical")}>CLICK ME</button>
         </div>
 
       </div>
