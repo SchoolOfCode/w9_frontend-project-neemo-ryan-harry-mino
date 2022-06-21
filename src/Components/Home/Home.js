@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import "./Home.css"
 import Cardcomponent from "../Cardcomponent/Cardcomponent";
+import Footer from "../Footer/Footer";
 const Home = (props) => {
 const navigate = useNavigate() 
     return (
@@ -17,7 +18,7 @@ const navigate = useNavigate()
           <Cardcomponent className="tecnhical-section" title={"Technical"} aboutSection= {"About Section"} />
           <button onClick={() => navigate("/technical")}>CLICK ME</button>
         </div>
-
+        <Footer/>
       </div>
     );
 }
