@@ -3,10 +3,51 @@ body {
 }
 
 .front-end-div {
-    border: 100px, solid, red;
-    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
 }
 
 .back-end-div {
-    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+}
+
+.front-end-title {
+    /* background-color: gray; */
+}
+
+.front-end-content {
+    display: flex;
+    justify-content: center;
+}
+
+.front-end-left-content {
+    /* background-color: red; */
+    width:50%;
+}
+
+.front-end-right-content {
+    /* background-color: blue; */
+    width: 50%;
+}
+
+.back-end-title {
+    /* background-color: gray; */
+}
+
+.back-end-content {
+    display: flex;
+    justify-content: center;
+}
+
+.back-end-left-content {
+    /* background-color: red; */
+    width:50%;
+}
+
+.back-end-right-content {
+    /* background-color: blue; */
+    width: 50%;
 }
