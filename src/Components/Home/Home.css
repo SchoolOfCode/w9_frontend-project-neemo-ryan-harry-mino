@@ -1,18 +1,34 @@
-.mainTitle {
-  text-align: center;
-  margin-bottom: 200px;
+.Home {
+  background-color: #B857C7;
 }
 
-.wellbeignSection {
-  float: left;
+.title-section {
+  background-color: antiquewhite;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: blue;
+}
+
+.wellbeing-section {
   border: 1px solid red;
-  text-align: center;
-  margin-left: 100px;
+  background-color: antiquewhite;
+  height: 30vh;
+  width: 30vw;
 }
 
-.technicalSection {
-  float: right;
-  border: 1px solid blue;
+.wellbeing-section > h1 {
   text-align: center;
-  margin-right: 100px;
+  background-color: green;
+  margin: 0;
+}
+
+.technical-section {
+  text-align: center;
+  border: 1px solid blue;
+  background-color: antiquewhite;
+  height: 30vh;
+  width: 30vw;
 }
