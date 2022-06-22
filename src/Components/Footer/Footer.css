@@ -1,4 +1,9 @@
-.footer-component {
-    background-color: blue;
-
-}
+.footer-class {
+        background-color: blue;
+        position: relative;
+        padding-bottom: 2.5rem;    /* Footer height */
+        position: absolute;
+        margin-top: 50%; 
+        width: 100%;
+        height: 2.5rem;            /* Footer height */
+      }
