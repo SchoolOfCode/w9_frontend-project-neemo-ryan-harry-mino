@@ -1,0 +1,16 @@
+body {
+
+}
+
+h1 {
+    background-color: blue;
+}
+
+.front-end-div {
+    border: 100px, solid, red;
+    background-color: antiquewhite;
+}
+
+.back-end-div {
+    background-color: antiquewhite;
+}
