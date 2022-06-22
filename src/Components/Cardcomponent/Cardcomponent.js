@@ -1,3 +1,4 @@
+import "./cardcomponent.css";
 const Cardcomponent = (props) => {
   return (
     <div className={props.className}>
