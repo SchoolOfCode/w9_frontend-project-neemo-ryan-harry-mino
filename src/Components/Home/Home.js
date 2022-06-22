@@ -3,14 +3,11 @@ import {useEffect, useState} from 'react'
 import "./Home.css";
 import Cardcomponent from "../Cardcomponent/Cardcomponent";
 import Footer from "../Footer/Footer";
-import {useState, useEffect} from "react"
 
 const Home = (props) => {
   const [quote, setQuote] = useState("")
- footer
   const [author, setAuthor] = useState("")
 
- development
   useEffect(() => {
     async function fetchData() {
       async function randomQuote() {
@@ -20,10 +17,8 @@ const Home = (props) => {
         const data = await response.json();  
         console.log(data);
         setQuote(data.payload[0].text)
-footer
         setAuthor(data.payload[0].author)   
 
- development
       }
       randomQuote();
     }
@@ -36,11 +31,9 @@ footer
     <div className="Home">
       <div className="title-section">
         <h1> FOO-D FOR THOUGHT</h1>
-footer
         <p></p>
 
         <p>{quote}</p>
- development
       </div>
       <div className="cards">
         <Cardcomponent
