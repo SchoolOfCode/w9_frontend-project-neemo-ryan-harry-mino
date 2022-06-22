@@ -6,6 +6,7 @@ import {useState, useEffect} from "react"
 
 const Home = (props) => {
   const [quote, setQuote] = useState("")
+  const [author, setAuthor] = useState("")
   useEffect(() => {
     async function fetchData() {
       async function randomQuote() {
@@ -15,6 +16,7 @@ const Home = (props) => {
         const data = await response.json();  
         console.log(data);
         setQuote(data.payload[0].text)
+        setAuthor(data.payload[0].author)   
       }
       randomQuote();
     }
@@ -27,7 +29,7 @@ const Home = (props) => {
     <div className="Home">
       <div className="title-section">
         <h1> FOO-D FOR THOUGHT</h1>
-        <p>{quote}</p>
+        <p></p>
       </div>
       <div className="cards">
         <Cardcomponent
@@ -47,8 +49,9 @@ const Home = (props) => {
       </div>
 <div className="footer-class">
       <Footer />
-      <p>{quote}</p>  
+      <p className="quote-paragraph">{quote} {author}</p>  
       </div>
+      <div className="empty"></div>
     </div>
   );
 };
