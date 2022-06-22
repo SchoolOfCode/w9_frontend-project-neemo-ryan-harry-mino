@@ -1,0 +1,28 @@
+.wellbeing-links {
+    background-color: antiquewhite;
+}
+
+.wellbeing-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    min-height: 500px;
+}
+
+img {
+width: 30%;
+height: 30%;
+}
+
+body {
+    margin: 0px 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.wellbeing-title {
+    background-color: antiquewhite;
+}
