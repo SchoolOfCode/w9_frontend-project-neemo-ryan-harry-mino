@@ -51,7 +51,6 @@ const Home = (props) => {
       <Footer />
       <p className="quote-paragraph">{quote} {author}</p>  
       </div>
-      <div className="empty"></div>
     </div>
   );
 };
