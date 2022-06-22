@@ -1,4 +1,20 @@
-.footer-component {
-    background-color: blue;
+.footer-class {
+        /* position: absolute; */
+        /* bottom: 0px; */
+        /* background-color: blue; */
+        /* padding-bottom: 2.5rem;    Footer height */
+        /* margin-top: 80%;  */
+        /* width: 100%; */
+        /* height: 2.5rem;   */
+        text-align: center;
+        font-size:25px;         
+        position:fixed;
+        bottom:0;
+        width:100%;
+        height:60px;   /* Height of the footer */
+        background:#6cf;
+      }
 
-}
+      /* *:not(.footer-class){ */
+        /* overflow-y: scroll ; */
+      /* } */
