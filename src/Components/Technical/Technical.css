@@ -1,7 +1,9 @@
 .technical-div {
     background-color:#2E8BC0;
     font-family: 'Roboto Mono', monospace;
+    margin: 0;
 }
+
 a{
     color:#0C2D48;
 }

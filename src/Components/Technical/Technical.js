@@ -29,6 +29,9 @@ const Technical = (props) => {
 
   return (
     <div className="technical-div">
+      <div className="title-section">
+        <h1> FOO-D FOR THOUGHT</h1>
+      </div>
       <Logo />
       <h1> TECHNICAL </h1>
 
@@ -44,18 +47,14 @@ const Technical = (props) => {
             <Section
               title="HTML"
               content={
-                <a target="_blank" href="https://htmlcheatsheet.com/">
-                  HTML CHEATSHEET
-                </a>
+                <a href="https://htmlcheatsheet.com/">HTML CHEATSHEET</a>
               }
               className="html-section"
             />
             <Section
               title="CSS"
               content={
-                <a target="_blank" href="https://htmlcheatsheet.com/css/">
-                  CSS CHEATSHEET
-                </a>
+                <a href="https://htmlcheatsheet.com/css/">CSS CHEATSHEET</a>
               }
               className="css-section"
             />
@@ -64,7 +63,7 @@ const Technical = (props) => {
             <Section
               title="JavaScript"
               content={
-                <a target="_blank" href="https://htmlcheatsheet.com/js/">
+                <a href="https://htmlcheatsheet.com/js/">
                   JAVASCRIPT CHEATSHEET
                 </a>
               }
@@ -72,11 +71,7 @@ const Technical = (props) => {
             />
             <Section
               title="React"
-              content={
-                <a target="_blank" href="https://beta.reactjs.org/">
-                  REACT BETA DOCS
-                </a>
-              }
+              content={<a href="https://beta.reactjs.org/">REACT BETA DOCS</a>}
               className="react-section"
             />
           </div>
@@ -96,10 +91,7 @@ A back-end developer builds and maintains the technology that powers those compo
             <Section
               title="Express"
               content={
-                <a
-                  target="_blank"
-                  href="https://expressjs.com/en/starter/installing.html"
-                >
+                <a href="https://expressjs.com/en/starter/installing.html">
                   EXPRESS DOCS
                 </a>
               }
@@ -107,11 +99,7 @@ A back-end developer builds and maintains the technology that powers those compo
             />
             <Section
               title="Node"
-              content={
-                <a target="_blank" href="https://nodejs.org/en/docs/">
-                  NODE DOCS
-                </a>
-              }
+              content={<a href="https://nodejs.org/en/docs/">NODE DOCS</a>}
               className="node-section"
             />
           </div>
@@ -119,19 +107,14 @@ A back-end developer builds and maintains the technology that powers those compo
             <Section
               title="PostgreSQL"
               content={
-                <a target="_blank" href="https://sqlbolt.com/">
-                  PostgreSQL PRACTICAL LEARNING
-                </a>
+                <a href="https://sqlbolt.com/">PostgreSQL PRACTICAL LEARNING</a>
               }
               className="postgresql-section"
             />
             <Section
               title="Heroku"
               content={
-                <a
-                  target="_blank"
-                  href="https://devcenter.heroku.com/categories/reference"
-                >
+                <a href="https://devcenter.heroku.com/categories/reference">
                   HEROKU DOCS
                 </a>
               }
