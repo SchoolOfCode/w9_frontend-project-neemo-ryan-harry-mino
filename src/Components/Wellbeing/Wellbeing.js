@@ -27,7 +27,7 @@ const Wellbeing = () => {
     console.log("useEffect");
   }, []);
   return (
-    <div>
+    <div className="wellbeing-div">
       <Logo />
       <h1> WELLBEING </h1>
       
@@ -53,7 +53,7 @@ const Wellbeing = () => {
           content={<a target="_blank" href="https://psyche.co/guides/how-to-ask-for-help-without-discomfort-or-apology">ASKING FOR HELP</a>}
            />
         </div>
-        <img
+        <img className="wellbeing-image"
           src="https://www.zakariamasjid.org.uk/wp-content/uploads/2020/04/improve-mental-wellbeing-at-work-_2640x1980_acf_cropped-1440x1080.jpg"
           alt="test"
         />
