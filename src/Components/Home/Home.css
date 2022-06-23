@@ -3,10 +3,8 @@
 
 
 .logo {
-  /* min-height: 10vh; */
   width: 100%;
   height: auto;
-
 }
 
 .Home {
@@ -14,8 +12,7 @@
   flex-direction:column;
   justify-content: space-between;
   background-color: #2E8BC0;
-  height:100vh;
-  width:auto;
+  height: 100vh;
 }
 
 .title-section {
@@ -30,17 +27,7 @@
   /* background-color: blue; */
 }
 
-@media (max-width: 600px) {
- .logo {
-    display: none;
-  }
-  .title-section {
-    display: block;
-    background-color: #0C2D48;
-    color: #B1D4E0;
-    font-size: 3vw;
-  }
-}
+
 
 .wellbeing-section {
   font-family: 'Roboto Mono', monospace;
@@ -51,6 +38,17 @@
   background-color: #B1D4E0;
   height: 30vh;
   width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; 
+}
+
+.wellbeing-section > h1, p, button {
+  line-height: 0;
+}
+
+.wellbeing-section > h1 {
+ font-size: 32px;
 }
 
 .technical-section {
@@ -62,4 +60,43 @@
   background-color: #B1D4E0;
   height: 30vh;
   width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; 
 }
+
+.technical-section > h1, p, button {
+  line-height: 0;
+}
+
+@media (max-width: 800px) {
+    
+}
+
+@media (max-width: 650px) {
+  .logo {
+     display: none;
+   }
+   .title-section {
+     display: block;
+     background-color: #0C2D48;
+     color: #B1D4E0;
+     font-size: 3vw;
+   }
+   .cards {
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+     /* height: auto; */
+   }
+   .wellbeing-section, .technical-section {
+    margin: 10px 0px;
+   }
+   .wellbeing-section > h1 {
+     font-size: 16px;
+   }
+   .technical-section > h1 {
+    font-size: 16px;
+   }
+ }
+

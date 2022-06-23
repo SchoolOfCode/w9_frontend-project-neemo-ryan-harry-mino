@@ -5,17 +5,14 @@ body {
 .front-end-div {
     display: flex;
     flex-direction: column;
-    /* background-color: antiquewhite; */
 }
 
 .back-end-div {
     display: flex;
     flex-direction: column;
-    /* background-color: antiquewhite; */
 }
 
 .front-end-title {
-    /* background-color: gray; */
 }
 
 .front-end-content {
@@ -24,17 +21,14 @@ body {
 }
 
 .front-end-left-content {
-    /* background-color: red; */
     width:50%;
 }
 
 .front-end-right-content {
-    /* background-color: blue; */
     width: 50%;
 }
 
 .back-end-title {
-    /* background-color: gray; */
 }
 
 .back-end-content {
@@ -43,11 +37,9 @@ body {
 }
 
 .back-end-left-content {
-    /* background-color: red; */
     width:50%;
 }
 
 .back-end-right-content {
-    /* background-color: blue; */
     width: 50%;
 }

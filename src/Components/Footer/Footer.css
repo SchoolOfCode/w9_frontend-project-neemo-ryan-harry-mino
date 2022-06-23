@@ -1,16 +1,15 @@
 .footer-class {
-        border-radius:20px;
+        border-top-left-radius:20px;
+        border-top-right-radius:20px;
         text-align: center;
-        font-size:14px;         
-        /* position:fixed; */
+        font-size:14px;        
         bottom:0;
-        /* width:94%; */
-        overflow:inherit;
-        height:60px;   /* Height of the footer */
+        /* overflow:inherit; */
+        height:60px;  
         background:#0C2D48;
       }
+
       .quote-paragraph{
-        /* font-family:Arial, Helvetica, sans-serif; */
         color:#B1D4E0;
         font-family: Permanent Marker; 
         font-weight:bolder;
