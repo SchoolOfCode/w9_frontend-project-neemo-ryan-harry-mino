@@ -1,11 +1,14 @@
 .footer-class {
+        display:flex;
+        justify-content:center;
+        align-items:center;
         border-top-left-radius:20px;
         border-top-right-radius:20px;
         text-align: center;
-        font-size:14px;        
+        font-size:20px;         
         bottom:0;
-        /* overflow:inherit; */
-        height:60px;  
+        height:60px;   /* Height of the footer */
+
         background:#0C2D48;
       }
 
@@ -13,5 +16,7 @@
         color:#B1D4E0;
         font-family: Permanent Marker; 
         font-weight:bolder;
-        text-transform:uppercase;
+        font-style:italic;
+
+        /* text-transform:uppercase; */
       }
