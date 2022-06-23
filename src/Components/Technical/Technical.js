@@ -5,27 +5,27 @@ import Footer from "../Footer/Footer";
 import Logo from "../Logo/Logo";
 
 const Technical = (props) => {
-   const [quote, setQuote] = useState("");
-   const [author, setAuthor] = useState("");
+  const [quote, setQuote] = useState("");
+  const [author, setAuthor] = useState("");
 
-   useEffect(() => {
-     async function fetchData() {
-       async function randomQuote() {
-         const id = Math.floor(Math.random() * 1000);
-         const response = await fetch(
-           `http://localhost:5432/quotes/${id.toString()}`
-         );
-         console.log(response);
-         const data = await response.json();
-         console.log(data);
-         setQuote(data.payload[0].text);
-         setAuthor(data.payload[0].author);
-       }
-       randomQuote();
-     }
-     fetchData();
-     console.log("useEffect");
-   }, []);
+  useEffect(() => {
+    async function fetchData() {
+      async function randomQuote() {
+        const id = Math.floor(Math.random() * 1000);
+        const response = await fetch(
+          `http://localhost:5432/quotes/${id.toString()}`
+        );
+        console.log(response);
+        const data = await response.json();
+        console.log(data);
+        setQuote(data.payload[0].text);
+        setAuthor(data.payload[0].author);
+      }
+      randomQuote();
+    }
+    fetchData();
+    console.log("useEffect");
+  }, []);
 
   return (
     <div className="technical-div">
@@ -43,24 +43,40 @@ const Technical = (props) => {
           <div className="front-end-left-content">
             <Section
               title="HTML"
-              content={<a target="_blank" href="https://htmlcheatsheet.com/">HTML CHEATSHEET</a>}
+              content={
+                <a target="_blank" href="https://htmlcheatsheet.com/">
+                  HTML CHEATSHEET
+                </a>
+              }
               className="html-section"
             />
-            <Section 
-            title="CSS" 
-            content={<a target="_blank" href="https://htmlcheatsheet.com/css/">CSS CHEATSHEET</a>}
-            className="css-section" 
-             />
+            <Section
+              title="CSS"
+              content={
+                <a target="_blank" href="https://htmlcheatsheet.com/css/">
+                  CSS CHEATSHEET
+                </a>
+              }
+              className="css-section"
+            />
           </div>
           <div className="front-end-right-content">
             <Section
               title="JavaScript"
-              content={<a target="_blank" href="https://htmlcheatsheet.com/js/">JAVASCRIPT CHEATSHEET</a>}
+              content={
+                <a target="_blank" href="https://htmlcheatsheet.com/js/">
+                  JAVASCRIPT CHEATSHEET
+                </a>
+              }
               className="javascript-section"
             />
             <Section
               title="React"
-              content={<a target="_blank" href="https://beta.reactjs.org/">REACT BETA DOCS</a>}
+              content={
+                <a target="_blank" href="https://beta.reactjs.org/">
+                  REACT BETA DOCS
+                </a>
+              }
               className="react-section"
             />
           </div>
@@ -79,24 +95,46 @@ A back-end developer builds and maintains the technology that powers those compo
           <div className="back-end-left-content">
             <Section
               title="Express"
-              content={<a target="_blank" href="https://expressjs.com/en/starter/installing.html">EXPRESS DOCS</a>}
+              content={
+                <a
+                  target="_blank"
+                  href="https://expressjs.com/en/starter/installing.html"
+                >
+                  EXPRESS DOCS
+                </a>
+              }
               className="express-section"
             />
             <Section
               title="Node"
-              content={<a target="_blank" href="https://nodejs.org/en/docs/">NODE DOCS</a>}
+              content={
+                <a target="_blank" href="https://nodejs.org/en/docs/">
+                  NODE DOCS
+                </a>
+              }
               className="node-section"
             />
           </div>
           <div className="back-end-right-content">
             <Section
               title="PostgreSQL"
-              content={<a target="_blank" href="https://sqlbolt.com/">PostgreSQL PRACTICAL LEARNING</a>}
+              content={
+                <a target="_blank" href="https://sqlbolt.com/">
+                  PostgreSQL PRACTICAL LEARNING
+                </a>
+              }
               className="postgresql-section"
             />
             <Section
               title="Heroku"
-              content={<a target="_blank" href="https://devcenter.heroku.com/categories/reference">HEROKU DOCS</a>}
+              content={
+                <a
+                  target="_blank"
+                  href="https://devcenter.heroku.com/categories/reference"
+                >
+                  HEROKU DOCS
+                </a>
+              }
               className="heroku-section"
             />
           </div>

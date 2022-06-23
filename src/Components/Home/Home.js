@@ -39,14 +39,14 @@ const Home = (props) => {
         <Card
           className="wellbeing-section"
           title="Wellbeing"
-          aboutSection="About Section"
+          aboutSection="Click here if you'd like some useful resources on how to manage your mental wellbeing as a developer!"
           path="/wellbeing"
           navigate={navigate}
         />
         <Card
           className="technical-section"
           title="Technical"
-          aboutSection="About Section"
+          aboutSection="Click here if you wanted some resources to help with your journey in becoming a full-stack developer!"
           path="technical"
           navigate={navigate}
         />
