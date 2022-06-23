@@ -1,6 +1,6 @@
 import React from "react";
 import {getByRole, render, screen} from "@testing-library/react";
-import Cardcomponent from "./Cardcomponent.js";
+import Card from "./Card.js";
 import {test, expect, jest} from "@jest/globals";
 
 //this will test whether the component renders using .toBeInTheDocument matcher
@@ -8,10 +8,10 @@ import {test, expect, jest} from "@jest/globals";
 
 
 //Write test 
-test("tests that Cardcomponent button renders", function () {
+test("tests that Card button renders", function () {
     //const addToList = jest.fn();  
     //Arrange
-    render(<Cardcomponent />) //buttonText?
+    render(<Card />) //buttonText?
     //Act 
         //do we actually need this stage for checking it renders?
     //Assert 
