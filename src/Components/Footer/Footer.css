@@ -8,10 +8,11 @@
         font-size:20px;         
         bottom:0;
         height:60px;   /* Height of the footer */
+
         background:#0C2D48;
       }
+
       .quote-paragraph{
-        /* font-family:Arial, Helvetica, sans-serif; */
         color:#B1D4E0;
         font-family: Permanent Marker; 
         font-weight:bolder;
