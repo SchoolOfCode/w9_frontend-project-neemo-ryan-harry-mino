@@ -1,4 +1,18 @@
-.footer-component {
-    background-color: blue;
-
-}
+.footer-class {
+        border-radius:20px;
+        text-align: center;
+        font-size:14px;         
+        /* position:fixed; */
+        bottom:0;
+        /* width:94%; */
+        overflow:inherit;
+        height:60px;   /* Height of the footer */
+        background:#0C2D48;
+      }
+      .quote-paragraph{
+        /* font-family:Arial, Helvetica, sans-serif; */
+        color:#B1D4E0;
+        font-family: Permanent Marker; 
+        font-weight:bolder;
+        text-transform:uppercase;
+      }

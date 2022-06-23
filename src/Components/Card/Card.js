@@ -1,5 +1,5 @@
-import "./cardcomponent.css";
-const Cardcomponent = (props) => {
+import "./Card.css";
+const Card = (props) => {
   return (
     <div className={props.className}>
       <h1>{props.title}</h1>
@@ -8,4 +8,4 @@ const Cardcomponent = (props) => {
     </div>
   );
 };
-export default Cardcomponent;
+export default Card;
