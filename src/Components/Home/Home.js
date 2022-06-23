@@ -32,8 +32,6 @@ const Home = (props) => {
       <div className="title-section">
         <h1> FOO-D FOR THOUGHT</h1>
         <p></p>
-
-        <p>{quote}</p>
       </div>
       <div className="cards">
         <Cardcomponent
