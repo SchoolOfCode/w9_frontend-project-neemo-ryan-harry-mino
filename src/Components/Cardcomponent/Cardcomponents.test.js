@@ -8,8 +8,8 @@ import {test, expect, jest} from "@jest/globals";
 
 
 //Write test 
-test("tests that AddItem button renders", function () {
-    //const addToList = jest.fn();  //not sure about this?
+test("tests that Cardcomponent button renders", function () {
+    //const addToList = jest.fn();  
     //Arrange
     render(<Cardcomponent />) //buttonText?
     //Act 
