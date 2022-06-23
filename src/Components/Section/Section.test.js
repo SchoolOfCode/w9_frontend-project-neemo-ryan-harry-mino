@@ -6,7 +6,7 @@ import Section from "./Section"
 //this will test whether the component renders using .toBeInTheDocument matcher
 
 //Write test
-test("tests that the footer renders", function () {
+test("tests that the heading renders", function () {
   //const addToList = jest.fn();  //not sure about this?
   //Arrange
   render(<Section />); //buttonText?
