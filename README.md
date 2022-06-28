@@ -1,18 +1,18 @@
-FOO-D FOR THOUGHT
-INTRO
+# FOO-D FOR THOUGHT
+## INTRO
 Welcome to our app FOO-D FOR THOUGHT. Our app was designed for boot-camp students studying web development after some research we found students needed two things technical resources and mental wellbeing assistance for this we created FOO-D FOR THOUGHT. 
 
-CONTENT
+## CONTENT
 Technical
 The technical section was split into two parts one being the front-end and one being the back-end each sections contains links to relevant resources. 
 
-Well-being
+## Well-being
 The well-being section was designed with the idea that students could navigate to relevant resources depending upon their mental well-being needs.
 
-Footer
+## Footer
 Throughout the app the footer will provide a random inspirational quote.
 
-HOW TO USE
+## HOW TO USE
 To begin clone this repository down to your local machine then run npm install to download the relevant dependencies. Once that is installed use command line interface (CLI) then enter the command npm start this will initialize the app to run in your browser automatically.  
 
 Once the page opens you will be directed to the home page which will have two buttons directing you to each respective sections.
