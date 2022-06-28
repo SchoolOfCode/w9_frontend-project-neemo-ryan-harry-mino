@@ -18,9 +18,10 @@ Throughout the app, the Footer will provide a random inspirational quote.
 
 ### Front-end
 
-To begin clone this repository down to your local machine then run npm install to download the relevant dependencies. Once that is installed use command line interface (CLI) then enter the command npm start this will initialize the app to run in your browser automatically.  
+To begin, clone this repository down to your local machine. Then run npm install to download the relevant dependencies. Once that is installed, use the command line interface (CLI) and enter the command npm start. This will initialize the app to run in your browser automatically.  
 
-Once the page opens you will be directed to the home page which will have two buttons directing you to each respective sections.
+Once the page opens you will be directed to the home page, which will have two buttons directing you to each respective sections.
+
 ### Back-end
 
 The footer components relies on the back-end running in order to retrieve the inspirational quotes.
