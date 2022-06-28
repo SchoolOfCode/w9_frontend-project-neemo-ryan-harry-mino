@@ -12,7 +12,7 @@ The well-being section was designed with the idea that students could navigate t
 ## Footer
 Throughout the app the footer will provide a random inspirational quote.
 
-## HOW TO USE
+## How to use
 
 ### Front-end
 
@@ -32,7 +32,7 @@ This is a beta website. There will be bugs, performance issues, and missing cont
 
 ## Planned Updates
 
-## What could we have done with 1 more week?
+### What could we have done with 1 more week?
 
 - Dark mode
 - Make the app more responsive
@@ -42,15 +42,16 @@ This is a beta website. There will be bugs, performance issues, and missing cont
 - Share to social media feature
 
 
-## What if we had even longer?
+### What if we had even longer?
 - Live chat
 - Code exercises (like codewars)
 - Customisable user experience
 - User authorisation (log in and log out)
 
 
+## OPEN SOURCE LICENSE
+ git hub provides a template
 
-OPEN SOURCE LICENSE git hub provides a template
 How can I provide feedback?
 
 link to back-end README
