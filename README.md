@@ -1,6 +1,6 @@
 # FOO-D FOR THOUGHT
 ## INTRO
-Welcome to our app FOO-D FOR THOUGHT. Our app was designed for boot-camp students studying web development after some research we found students needed two things technical resources and mental wellbeing assistance for this we created FOO-D FOR THOUGHT. 
+Welcome to our app FOO-D FOR THOUGHT. Our app was designed for boot-camp students studying web development, after some research we found students needed two things, technical resources and mental wellbeing assistance, for this we created FOO-D FOR THOUGHT. 
 
 ## CONTENT
 Technical
