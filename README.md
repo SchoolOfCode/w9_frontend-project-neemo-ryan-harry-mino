@@ -2,10 +2,10 @@
 </a><img src="https://i.imgur.com/FRqvO8t.png" height="auto" alt="FOO-D FOR THOUGHT logo">
 <!-- https://i.imgur.com/FRqvO8t.png -->
 
-## INTRO
+## Introduction
 Welcome to our app FOO-D FOR THOUGHT. Our app was designed for boot-camp students studying web development, after some research we found students needed two things, technical resources and mental wellbeing assistance, for this we created FOO-D FOR THOUGHT. 
 
-## CONTENT
+## Content
 
 
 ### Technical
@@ -55,7 +55,7 @@ This is a beta website. There will be bugs, performance issues, and missing cont
 - User authorisation (log in and log out)
 
 
-## OPEN SOURCE LICENSE
+## Open source licesence 
  git hub provides a template
 
 How can I provide feedback?
