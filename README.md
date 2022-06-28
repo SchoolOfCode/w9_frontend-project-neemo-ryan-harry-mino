@@ -12,7 +12,7 @@ The technical section was split into two parts one being the front-end and one b
 The well-being section was designed with the idea that students could navigate to relevant resources, depending upon their mental well-being needs.
 
 ### Footer
-Throughout the app the footer will provide a random inspirational quote.
+Throughout the app, the Footer will provide a random inspirational quote.
 
 ## How to use
 
