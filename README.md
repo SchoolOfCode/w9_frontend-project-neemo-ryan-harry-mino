@@ -1,5 +1,5 @@
 <!-- # FOO-D FOR THOUGHT -->
-</a><img src="https://i.imgur.com/FRqvO8t.png" height="auto" alt="FOO-D FOR THOUGHT logo">
+<img src="https://i.imgur.com/FRqvO8t.png" height="auto" alt="FOO-D FOR THOUGHT logo">
 <!-- https://i.imgur.com/FRqvO8t.png -->
 
 ## Introduction
