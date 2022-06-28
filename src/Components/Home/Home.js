@@ -12,10 +12,8 @@ const Home = (props) => {
   useEffect(() => {
     async function fetchData() {
       async function randomQuote() {
-        const id = Math.floor(Math.random() * 1000);
-        const response = await fetch(
-          `http://localhost:5432/quotes/${id.toString()}`
-        );
+        const id = Math.floor(Math.random() * 1000).toString();
+        const response = await fetch(`http://localhost:5432/quotes/${id}`);
         console.log(response);
         const data = await response.json();
         console.log(data);
