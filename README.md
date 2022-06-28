@@ -1,5 +1,5 @@
 # FOO-D FOR THOUGHT
-</a><img src="https://i.imgur.com/FRqvO8t.png" width="900" height="300" >
+</a><img src="https://i.imgur.com/FRqvO8t.png" height="auto" >
 <!-- https://i.imgur.com/FRqvO8t.png -->
 
 ## INTRO
