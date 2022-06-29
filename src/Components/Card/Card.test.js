@@ -1,18 +1,13 @@
 import React from "react";
-import { fireEvent, getByRole, render, screen } from "@testing-library/react";
-import Card from "./Card.js";
-import { test, expect, jest } from "@jest/globals";
-import userEvent from "@testing-library/user-event";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { fireEvent, getByRole, render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+import { test, expect, jest } from "@jest/globals";
+import Home from "../Home/Home.js";
+import Wellbeing from "../Wellbeing/Wellbeing.js";
+import Technical from "../Technical/Technical.js";
 
-// test("tests that Card button renders", function () {
-//   render(<Card />);
-//   expect(screen.getByRole("article")).toBeInTheDocument();
-//   expect(screen.getByRole("heading")).toBeInTheDocument();
-//   expect(screen.getByRole("button")).toBeInTheDocument();
-// });
-
-test("tests if onClick has been called", () => {
+test("Wellbeing button routes to correct page", () => {
   render(
     <Router>
       <Routes>
@@ -22,10 +17,15 @@ test("tests if onClick has been called", () => {
       </Routes>
     </Router>
   );
-  // selecting the button
-  let button = screen.getByRole("button");
-  // clicking the button
-  userEvent.click(button);
+  // Checks if homepage is being rendered
+  const buttons = screen.getAllByRole("button");
+  const wellbeingButton = buttons[0];
+  const technicalButton = buttons[1];
+  expect(wellbeingButton && technicalButton).toBeInTheDocument();
+  // clicking wellbeing button
+  userEvent.click(buttons[0]);
   // has the path changed
-  expect(screen.getByText("IMPOSTER SYNDROME")).toBeInTheDocument();
+  expect(
+    screen.getByRole("heading", { name: "Overcoming Imposter Syndrome" })
+  ).toBeInTheDocument();
 });
