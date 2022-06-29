@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+<a href="#"><img alt="FOO-D FOR THOUGHT logo" src="https://i.imgur.com/FRqvO8t.png" height="auto"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+Welcome to our app FOO-D FOR THOUGHT. Our app was designed for boot-camp students studying web development, after some research we found students needed two things, technical resources and mental wellbeing assistance, for this we created FOO-D FOR THOUGHT. 
+<br><br>
+## Content
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Technical
+The technical section was split into two parts one being the front-end and one being the back-end, each sections contains links to relevant resources.  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Well-being
+The well-being section was designed with the idea that students could navigate to relevant resources, depending upon their mental well-being needs.
 
-### `npm test`
+### Footer
+Throughout the app, the Footer will provide a random inspirational quote.
+<br><br>
+## How to use
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Front-end
 
-### `npm run build`
+To begin, clone this repository down to your local machine. Then use the command line interface (CLI) to ```npm install``` and download the relevant dependencies. Once that is installed, enter the command ```npm start```. This will initialize the app to run in your browser automatically.  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Once the page opens you will be directed to the home page, which will have two buttons directing you to each respective sections.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To close the application use ```Ctrl+C``` in the terminal.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Back-end
 
-### `npm run eject`
+The footer components relies on the back-end running in order to retrieve the inspirational quotes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To begin clone [this](https://github.com/SchoolOfCode/w9_backend-project-neemo-ryan-harry-mino) repository down to your local machine. Then run ```npm install``` to download the relevant dependencies. Once that is installed, enter the command ```npm run dev``` this will initialize a local server on ```PORT 5432``` that is linked to the hosting site heroku.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Now the footer will be functional and able to retrieve a random inspirational quote.
+<br><br>
+## This is a work in progress!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This is a beta website. There will be bugs, performance issues, and missing content.
+<br><br>
+## Planned Updates
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Features we would like to add
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Dark mode
+- Make the app more responsive
+- More testing on features
+- Accessibility (Screen reader, aria labels)
+- More CRUD handlers - allow users to add to quotes etc
+- Share to social media feature
+- Live chat
+- Code exercises (like codewars)
+- Customisable user experience
+- User authorisation (log in and log out)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## [License](https://github.com/SchoolOfCode/w9_frontend-project-neemo-ryan-harry-mino/blob/docs/LICENSE)
+GNU GENERAL PUBLIC LICENSE- Version 3, 29 June 2007
