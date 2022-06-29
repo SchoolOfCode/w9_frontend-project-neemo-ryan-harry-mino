@@ -21,7 +21,7 @@ Throughout the app, the Footer will provide a random inspirational quote.
 
 ### Front-end
 
-To begin, clone this repository down to your local machine. Then ```run npm install``` to download the relevant dependencies. Once that is installed, use the command line interface (CLI) and enter the command ```npm start```. This will initialize the app to run in your browser automatically.  
+To begin, clone this repository down to your local machine. Then use the command line interface (CLI) to ```npm install``` and download the relevant dependencies. Once that is installed, enter the command ```npm start```. This will initialize the app to run in your browser automatically.  
 
 Once the page opens you will be directed to the home page, which will have two buttons directing you to each respective sections.
 
@@ -31,7 +31,7 @@ To close the application use ```Ctrl+C``` in the terminal.
 
 The footer components relies on the back-end running in order to retrieve the inspirational quotes.
 
-To begin clone [this](https://github.com/SchoolOfCode/w9_backend-project-neemo-ryan-harry-mino) repository down to your local machine, then ```run npm install``` to download the relevant dependencies. Once that is installed use command line interface (CLI) then enter the command ```npm run dev``` this will initialize a local server on ```PORT 5432``` that is linked to the hosting site heroku.
+To begin clone [this](https://github.com/SchoolOfCode/w9_backend-project-neemo-ryan-harry-mino) repository down to your local machine. Then run ```npm install``` to download the relevant dependencies. Once that is installed, enter the command ```npm run dev``` this will initialize a local server on ```PORT 5432``` that is linked to the hosting site heroku.
 
 Now the footer will be functional and able to retrieve a random inspirational quote.
 <br><br>
@@ -41,7 +41,8 @@ This is a beta website. There will be bugs, performance issues, and missing cont
 <br><br>
 ## Planned Updates
 
-### What could we have done with 1 more week?
+
+### Features we would like to add
 
 - Dark mode
 - Make the app more responsive
@@ -49,18 +50,10 @@ This is a beta website. There will be bugs, performance issues, and missing cont
 - Accessibility (Screen reader, aria labels)
 - More CRUD handlers - allow users to add to quotes etc
 - Share to social media feature
-
-
-### What if we had even longer?
 - Live chat
 - Code exercises (like codewars)
 - Customisable user experience
 - User authorisation (log in and log out)
 
-<br><br>
-## Open source license 
- git hub provides a template
-
-How can I provide feedback?
-
-link to back-end README
+## [License](https://github.com/SchoolOfCode/w9_frontend-project-neemo-ryan-harry-mino/blob/docs/LICENSE)
+GNU GENERAL PUBLIC LICENSE- Version 3, 29 June 2007
