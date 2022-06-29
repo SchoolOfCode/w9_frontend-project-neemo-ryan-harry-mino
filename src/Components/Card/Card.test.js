@@ -1,21 +1,31 @@
 import React from "react";
-import {getByRole, render, screen} from "@testing-library/react";
+import { fireEvent, getByRole, render, screen } from "@testing-library/react";
 import Card from "./Card.js";
-import {test, expect, jest} from "@jest/globals";
+import { test, expect, jest } from "@jest/globals";
+import userEvent from "@testing-library/user-event";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-//this will test whether the component renders using .toBeInTheDocument matcher
+// test("tests that Card button renders", function () {
+//   render(<Card />);
+//   expect(screen.getByRole("article")).toBeInTheDocument();
+//   expect(screen.getByRole("heading")).toBeInTheDocument();
+//   expect(screen.getByRole("button")).toBeInTheDocument();
+// });
 
-
-
-//Write test 
-test("tests that Card button renders", function () {
-    //const addToList = jest.fn();  
-    //Arrange
-    render(<Card />) //buttonText?
-    //Act 
-        //do we actually need this stage for checking it renders?
-    //Assert 
-    expect(screen.getByRole('button')).toBeInTheDocument();
-})
-
-// addToList={addToList}  
+test("tests if onClick has been called", () => {
+  render(
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Wellbeing" element={<Wellbeing />} />
+        <Route path="/Technical" element={<Technical />} />
+      </Routes>
+    </Router>
+  );
+  // selecting the button
+  let button = screen.getByRole("button");
+  // clicking the button
+  userEvent.click(button);
+  // has the path changed
+  expect(screen.getByText("IMPOSTER SYNDROME")).toBeInTheDocument();
+});
