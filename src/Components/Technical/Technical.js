@@ -1,32 +1,9 @@
-import { useEffect, useState } from "react";
 import Section from "../Section/Section";
 import "./Technical.css";
 import Footer from "../Footer/Footer";
 import Logo from "../Logo/Logo";
 
 const Technical = (props) => {
-  const [quote, setQuote] = useState("");
-  const [author, setAuthor] = useState("");
-
-  useEffect(() => {
-    async function fetchData() {
-      async function randomQuote() {
-        const id = Math.floor(Math.random() * 1000);
-        const response = await fetch(
-          `http://localhost:5432/quotes/${id.toString()}`
-        );
-        console.log(response);
-        const data = await response.json();
-        console.log(data);
-        setQuote(data.payload[0].text);
-        setAuthor(data.payload[0].author);
-      }
-      randomQuote();
-    }
-    fetchData();
-    console.log("useEffect");
-  }, []);
-
   return (
     <div className="technical-div">
       <div className="title-section">
@@ -125,9 +102,6 @@ A back-end developer builds and maintains the technology that powers those compo
       </div>
       <div className="footer-class">
         <Footer />
-        <p className="quote-paragraph">
-          {quote} {author}
-        </p>
       </div>
     </div>
   );
