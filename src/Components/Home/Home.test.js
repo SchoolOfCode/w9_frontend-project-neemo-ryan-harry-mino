@@ -1,19 +1,29 @@
 import React from "react";
-import {getByRole, render, screen} from "@testing-library/react";
-import {test, expect, jest} from "@jest/globals";
-import Home from "./Home.js";
+import { getByRole, render, screen } from "@testing-library/react";
+import { test, expect, jest } from "@jest/globals";
+import Logo from "../Logo/Logo.js";
+import Card from "../Card/Card.js";
+import Footer from "../Footer/Footer.js";
 
-//this will test whether the component renders using .toBeInTheDocument matcher
-
-
-
-//Write test 
-test("tests that h1 text render", function () {
-    //const addToList = jest.fn();  //not sure about this?
-    //Arrange
-    render(<h1></h1>) //buttonText?
-    //Act 
-        //do we actually need this stage for checking it renders?
-    //Assert 
-    expect(screen.getByRole('heading')).toBeInTheDocument('FOO-D FOR THOUGHT')
+describe("Homepage renders", () => {
+  test("Header logo renders", () => {
+    render(<Logo />);
+    expect(screen.getByRole("img")).toBeInTheDocument();
+  });
+  test("Wellbeing card renders", () => {
+    render(<Card title="Wellbeing" />);
+    expect(
+      screen.getByRole("heading", { name: "Wellbeing" })
+    ).toBeInTheDocument();
+  });
+  test("Technical card renders", () => {
+    render(<Card title="Technical" />);
+    expect(
+      screen.getByRole("heading", { name: "Technical" })
+    ).toBeInTheDocument();
+  });
+  test("Footer renders", () => {
+    render(<Footer />);
+    expect(screen.getByRole("contentinfo")).toBeInTheDocument();
+  });
 });
