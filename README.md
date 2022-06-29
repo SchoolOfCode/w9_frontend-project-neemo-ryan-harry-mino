@@ -55,5 +55,5 @@ This is a beta website. There will be bugs, performance issues, and missing cont
 - Customisable user experience
 - User authorisation (log in and log out)
 
-## [License](https://github.com/SchoolOfCode/w9_frontend-project-neemo-ryan-harry-mino/blob/docs/LICENSE)
+## [License](https://github.com/SchoolOfCode/w9_frontend-project-neemo-ryan-harry-mino/blob/main/LICENSE)
 GNU GENERAL PUBLIC LICENSE- Version 3, 29 June 2007
